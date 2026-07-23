@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Common Device and Kernel Tree -->
+    <project path="device/samsung/exynos9820-common" name="LineageOS/android_device_samsung_exynos9820-common" revision="lineage-22.2" />
+    <project path="kernel/samsung/exynos9820" name="LineageOS/android_kernel_samsung_exynos9820" revision="lineage-22.2" />
+
+    <!-- S10+ Device Specific Tree (beyond2lte) -->
+    <project path="device/samsung/beyond2lte" name="LineageOS/android_device_samsung_beyond2lte" revision="lineage-22.2" />
+
+    <!-- S10 Device Specific Tree (beyond1lte) -->
+    <project path="device/samsung/beyond1lte" name="LineageOS/android_device_samsung_beyond1lte" revision="lineage-22.2" />
+
+    <!-- S10e Device Specific Tree (beyond0lte) -->
+    <project path="device/samsung/beyond0lte" name="LineageOS/android_device_samsung_beyond0lte" revision="lineage-22.2" />
+
+    <!-- Vendor Files (TheMuppets) -->
+    <project path="vendor/samsung/exynos9820-common" name="TheMuppets/proprietary_vendor_samsung_exynos9820-common" revision="lineage-22.2" />
+    <project path="vendor/samsung/beyond2lte" name="TheMuppets/proprietary_vendor_samsung_beyond2lte" revision="lineage-22.2" />
+    <project path="vendor/samsung/beyond1lte" name="TheMuppets/proprietary_vendor_samsung_beyond1lte" revision="lineage-22.2" />
+    <project path="vendor/samsung/beyond0lte" name="TheMuppets/proprietary_vendor_samsung_beyond0lte" revision="lineage-22.2" />
+</manifest>
